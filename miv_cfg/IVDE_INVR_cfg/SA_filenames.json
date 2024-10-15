@@ -1,0 +1,28 @@
+{
+    "filenames": [
+        {
+            "InputView": "/work/Users/lisicheng/Code/INVR-KITTI360/kitti360_700_5/YUV/700_00_texture_1408x376_yuv420p10le.yuv",
+            "OutputDepthMap": "/work/Users/lisicheng/Code/INVR-KITTI360/kitti360_700_5/YUV/700_00_depth_1408x376_yuv420p16le.yuv"
+        },
+        {
+            "InputView": "/work/Users/lisicheng/Code/INVR-KITTI360/kitti360_700_5/YUV/700_01_texture_1408x376_yuv420p10le.yuv",
+            "OutputDepthMap": "/work/Users/lisicheng/Code/INVR-KITTI360/kitti360_700_5/YUV/700_01_depth_1408x376_yuv420p16le.yuv"
+        },
+        {
+            "InputView": "/work/Users/lisicheng/Code/INVR-KITTI360/kitti360_700_5/YUV/702_00_texture_1408x376_yuv420p10le.yuv",
+            "OutputDepthMap": "/work/Users/lisicheng/Code/INVR-KITTI360/kitti360_700_5/YUV/702_00_depth_1408x376_yuv420p16le.yuv"
+        },
+        {
+            "InputView": "/work/Users/lisicheng/Code/INVR-KITTI360/kitti360_700_5/YUV/702_01_texture_1408x376_yuv420p10le.yuv",
+            "OutputDepthMap": "/work/Users/lisicheng/Code/INVR-KITTI360/kitti360_700_5/YUV/702_01_depth_1408x376_yuv420p16le.yuv"
+        },
+        {
+            "InputView": "/work/Users/lisicheng/Code/INVR-KITTI360/kitti360_700_5/YUV/704_00_texture_1408x376_yuv420p10le.yuv",
+            "OutputDepthMap": "/work/Users/lisicheng/Code/INVR-KITTI360/kitti360_700_5/YUV/704_00_depth_1408x376_yuv420p16le.yuv"
+        },
+        {
+            "InputView": "/work/Users/lisicheng/Code/INVR-KITTI360/kitti360_700_5/YUV/704_01_texture_1408x376_yuv420p10le.yuv",
+            "OutputDepthMap": "/work/Users/lisicheng/Code/INVR-KITTI360/kitti360_700_5/YUV/704_01_depth_1408x376_yuv420p16le.yuv"
+        }
+    ]
+}
