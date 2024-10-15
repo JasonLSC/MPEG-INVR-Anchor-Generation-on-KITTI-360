@@ -10,15 +10,17 @@ We have provided the relevant files in the kitti360_700_5 folder. The folder inc
 1. Stereo RGB images stored in PNG format from KITTI-360, such as 700_00.png and 700_01.png, where xxx_00 and xxx_01 form a pair of stereo images; 
 2. A scene description file that conforms to the MPEG OMAF format: mpeg_omaf.json; 
 3. A configuration file that conforms to the NeRF format: transforms.json; 
-4. YUV files converted from the stereo images in "1."
+4. YUV files converted from the stereo images in "1." (,which needs to be convert by crosscheckers.)
 
 # Configure files
 To ensure the smooth progress of the upcoming experiments, here are our configuration files：
-- Sequences cfg file named `Z.json` stored in `./miv_cfg/sequences/Z.json`
+- Sequences cfg file named `Z.json` stored in `miv_cfg/sequences/Z.json`
   - (Compared to the MPEG OMAF file mentioned above, the only differences are in the naming of the source view and the sourceCameraNames. These modifications were made to facilitate running MIV experiments.)
-- MIV DSDE mode cfg files stored in `./miv_cfg/invr_dsde_anchor`
+- MIV DSDE mode cfg files stored in `miv_cfg/invr_dsde_anchor`
+- Cfg files for IVDE stored in `miv_cfg/IVDE_INVR_cfg`
 
 # Software
+Before you start, you may need to download, compile and install these softwares:
 - TMIV 20.0.0
 - IVDE
 
